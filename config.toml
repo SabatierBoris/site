@@ -3,7 +3,20 @@ compile_sass = false
 
 build_search_index = false
 
+theme = "zola-clean-blog"
+description = "Boris Sabatier"
+
+taxonomies = [
+    {name = "categories", rss = false, paginate_by=5},
+    {name = "tags", rss = false, paginate_by=5},
+]
+
 [markdown]
 highlight_code = false
 
 [extra]
+clean_blog_menu = [
+]
+
+clean_blog_social = [
+]
