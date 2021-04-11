@@ -16,6 +16,7 @@ highlight_code = false
 
 [extra]
 clean_blog_menu = [
+    {url = "$BASE_URL/about", name = "À propos"},
 ]
 
 clean_blog_social = [
