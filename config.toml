@@ -1,6 +1,6 @@
 base_url = "https://sabatierboris.github.io"
+generate_rss = false
 compile_sass = false
-
 build_search_index = false
 
 theme = "zola-clean-blog"
@@ -15,7 +15,9 @@ taxonomies = [
 highlight_code = false
 
 [extra]
+author = "Boris"
 clean_blog_menu = [
+    {url = "$BASE_URL/", name = "Blog"},
     {url = "$BASE_URL/about", name = "À propos"},
 ]
 
